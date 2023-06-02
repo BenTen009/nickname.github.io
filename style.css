@@ -12,6 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5em;
+
 }
 
 a {
@@ -235,11 +236,13 @@ a {
 }
 .experience .job-wrapper {
   width: 70%;
-  float: left;
+  float: right;
   text-align: left;
   padding-right: 5%;
   margin-bottom: 60px;
 }
+
+.job-wrapper.clearfix {}
 @media (max-width: 450px) {
   .experience .job-wrapper {
     width: 100%;
@@ -457,4 +460,8 @@ a {
   to {
     width: 70%;
   }
+}
+
+.about.experience-title {
+ display:inline-block;
 }
